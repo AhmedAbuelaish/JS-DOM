@@ -4,6 +4,8 @@ var incrementButton = document.getElementById('increment');
 var decrementButton = document.getElementById('decrement');
 var counter = document.getElementById('counter');
 
+console.log(incrementButton)
+
 var count = 0; // This variable holds the current value of the counter!
 
 incrementButton.addEventListener('click', function(){
